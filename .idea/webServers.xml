@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22de8bef-556d-4b55-b668-ee113e8e9cea" name="azure" url="https://filmsolution.azurewebsites.net">
+        <fileTransfer host="ftp://waws-prod-pn1-011.ftp.azurewebsites.windows.net/site/wwwroot" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4488aba0-b34d-405b-b2ea-a985923c45e6" name="filmsolution" url="http://ftp://waws-prod-pn1-011.ftp.azurewebsites.windows.net/site/wwwroot">
+        <fileTransfer host="ftp://waws-prod-pn1-011.ftp.azurewebsites.windows.net/site/wwwroot" port="443">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
